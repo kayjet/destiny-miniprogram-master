@@ -23,6 +23,7 @@
       "van-row": "/@vant/weapp/row/index",
       "van-tabbar": "/@vant/weapp/tabbar/index",
       "van-tabbar-item": "/@vant/weapp/tabbar-item/index",
+      "van-divider": "@vant/weapp/divider/index",
       "van-col": "/@vant/weapp/col/index"
   }
 }

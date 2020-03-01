@@ -10,6 +10,12 @@ Page({
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
   onChangeTab(event) {
+    console.log(event);
+    if (event.detail == 2){
+      wx.navigateTo({
+        url: '../mine/mine'
+      })
+    }
     // event.detail 的值为当前选中项的索引
     this.setData({ active: event.detail });
   },
